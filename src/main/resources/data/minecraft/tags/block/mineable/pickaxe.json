@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "firstmod:luquita_block",
+    "firstmod:raw_luquita_block",
+    "firstmod:luquita_ore",
+    "firstmod:luquita_deepslate_ore"
+  ]
+}

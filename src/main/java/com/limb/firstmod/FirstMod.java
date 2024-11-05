@@ -1,5 +1,7 @@
 package com.limb.firstmod;
 
+import com.limb.firstmod.block.ModBlock;
+import com.limb.firstmod.item.ModCreativeModeTabs;
 import com.limb.firstmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -32,7 +34,10 @@ public class FirstMod {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlock.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -52,6 +57,12 @@ public class FirstMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.LUQUITA);
             event.accept(ModItems.RAW_LUQUITA);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlock.LUQUITA_BLOCK);
+            event.accept(ModBlock.RAW_LUQUITA_BLOCK);
+            event.accept(ModBlock.LUQUITA_ORE);
+            event.accept(ModBlock.LUQUITA_DEEPSLATE_ORE);
         }
     }
 

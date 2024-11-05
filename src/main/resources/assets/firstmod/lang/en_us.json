@@ -1,4 +1,12 @@
 {
   "item.firstmod.luquita": "Luquita",
-  "item.firstmod.raw_luquita": "Raw Luquita"
+  "item.firstmod.raw_luquita": "Raw Luquita",
+
+  "block.firstmod.luquita_block": "Luquita Block",
+  "block.firstmod.raw_luquita_block": "Raw Luquita Block",
+  "block.firstmod.luquita_ore": "Luquita Ore",
+  "block.firstmod.luquita_deepslate_ore": "Luquita Deepslate Ore",
+
+  "creativetab.firstmod.luquita_items": "Luquita Items",
+  "creativetab.firstmod.luquita_blocks": "Luquita Blocks"
 }
