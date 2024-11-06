@@ -1,11 +1,15 @@
 {
   "item.firstmod.luquita": "Luquita",
   "item.firstmod.raw_luquita": "Luquita Bruta",
+  "item.firstmod.raw_opal": "Opala Bruta",
+  "item.firstmod.opal": "Opala",
 
   "block.firstmod.luquita_block": "Bloco de Luquita",
   "block.firstmod.raw_luquita_block": "Bloco de Luquita Bruta",
   "block.firstmod.luquita_ore": "Minério de Luquita",
   "block.firstmod.luquita_deepslate_ore": "Minério de Luquita de Ardósia",
+  "block.firstmod.opal_ore": "Minério de Opala",
+  "block.firstmod.opal_deepslate_ore": "Minério de Opala de Ardósia",
 
   "creativetab.firstmod.luquita_items": "Itens de Luquita",
   "creativetab.firstmod.luquita_blocks": "Blocos de Luquita"

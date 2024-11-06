@@ -57,12 +57,16 @@ public class FirstMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.LUQUITA);
             event.accept(ModItems.RAW_LUQUITA);
+            event.accept(ModItems.RAW_OPAL);
+            event.accept(ModItems.OPAL);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlock.LUQUITA_BLOCK);
             event.accept(ModBlock.RAW_LUQUITA_BLOCK);
             event.accept(ModBlock.LUQUITA_ORE);
             event.accept(ModBlock.LUQUITA_DEEPSLATE_ORE);
+            event.accept(ModBlock.OPAL_ORE);
+            event.accept(ModBlock.OPAL_DEEPSLATE_ORE);
         }
     }
 

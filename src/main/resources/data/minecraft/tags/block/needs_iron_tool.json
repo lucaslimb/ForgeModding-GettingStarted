@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "firstmod:luquita_block",
-    "firstmod:raw_luquita_block"
+    "firstmod:raw_luquita_block",
+    "firstmod:opal_ore",
+    "firstmod:opal_deepslate_ore"
   ]
 }

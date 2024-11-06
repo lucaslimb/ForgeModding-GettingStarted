@@ -4,6 +4,8 @@
     "firstmod:luquita_block",
     "firstmod:raw_luquita_block",
     "firstmod:luquita_ore",
-    "firstmod:luquita_deepslate_ore"
+    "firstmod:luquita_deepslate_ore",
+    "firstmod:opal_ore",
+    "firstmod:opal_deepslate_ore"
   ]
 }

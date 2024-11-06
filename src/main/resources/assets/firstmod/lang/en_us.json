@@ -1,11 +1,15 @@
 {
   "item.firstmod.luquita": "Luquita",
   "item.firstmod.raw_luquita": "Raw Luquita",
+  "item.firstmod.raw_opal": "Raw Opal",
+  "item.firstmod.opal": "Opal",
 
   "block.firstmod.luquita_block": "Luquita Block",
   "block.firstmod.raw_luquita_block": "Raw Luquita Block",
   "block.firstmod.luquita_ore": "Luquita Ore",
   "block.firstmod.luquita_deepslate_ore": "Luquita Deepslate Ore",
+  "block.firstmod.opal_ore": "Opal Ore",
+  "block.firstmod.opal_deepslate_ore": "Opal Deepslate Ore",
 
   "creativetab.firstmod.luquita_items": "Luquita Items",
   "creativetab.firstmod.luquita_blocks": "Luquita Blocks"

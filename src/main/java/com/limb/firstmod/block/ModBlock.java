@@ -40,6 +40,17 @@ public class ModBlock {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.DEEPSLATE)));
 
+    public static final RegistryObject<Block> OPAL_ORE = registerBlock("opal_ore",
+            () -> new DropExperienceBlock(UniformInt.of(5, 7), BlockBehaviour.Properties.of()
+                    .strength(6f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> OPAL_DEEPSLATE_ORE = registerBlock("opal_deepslate_ore",
+            () -> new DropExperienceBlock(UniformInt.of(5, 7), BlockBehaviour.Properties.of()
+                    .strength(6f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE)));
+
 
 
 
